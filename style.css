@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222222;
+  background-color: #f9f9fb;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px; /* Pehmeät kulman (osio e) */
+
+}
+h1,
+h2 {
+    color: #0b3c5d;
+
+}
+
+.kortti {
+    width: 300;
+    padding: 20px;
+    border: 2px;
+    margin: 25px auto;
+    background-color:rgb(255, 123, 0);   
+}
+
+nav ul {
+   display: flex;
+   list-style: none; /* Poistetaan luettelopallukat */
+   gap: 15px;
+   padding: 0;
+}
+
